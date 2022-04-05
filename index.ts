@@ -75,12 +75,12 @@ const deleteUser = async () => {
 async function main() {
   // you will write your Prisma Client queries here
 
-  // await createUser();
+  await createUser();
   await fetchUsers();
   // await updatePost();
   // await filterPosts();
   // await createPost();
-  // await deleteUser();
+  await deleteUser();
 
   // run `npx prisma studio` to see the database in action
 }
